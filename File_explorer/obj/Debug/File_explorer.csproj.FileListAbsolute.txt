@@ -1,0 +1,15 @@
+C:\Users\Łukasz\Desktop\C# _WPF_Projects\PROJEKT\File_explorer\File_explorer\obj\Debug\MainWindow.g.cs
+C:\Users\Łukasz\Desktop\C# _WPF_Projects\PROJEKT\File_explorer\File_explorer\obj\Debug\App.g.cs
+C:\Users\Łukasz\Desktop\C# _WPF_Projects\PROJEKT\File_explorer\File_explorer\obj\Debug\File_explorer_MarkupCompile.cache
+C:\Users\Łukasz\Desktop\C# _WPF_Projects\PROJEKT\File_explorer\File_explorer\obj\Debug\File_explorer_MarkupCompile.lref
+C:\Users\Łukasz\Desktop\C# _WPF_Projects\PROJEKT\File_explorer\File_explorer\bin\Debug\File_explorer.exe.config
+C:\Users\Łukasz\Desktop\C# _WPF_Projects\PROJEKT\File_explorer\File_explorer\bin\Debug\File_explorer.exe
+C:\Users\Łukasz\Desktop\C# _WPF_Projects\PROJEKT\File_explorer\File_explorer\bin\Debug\File_explorer.pdb
+C:\Users\Łukasz\Desktop\C# _WPF_Projects\PROJEKT\File_explorer\File_explorer\obj\Debug\File_explorer.csprojAssemblyReference.cache
+C:\Users\Łukasz\Desktop\C# _WPF_Projects\PROJEKT\File_explorer\File_explorer\obj\Debug\MainWindow.baml
+C:\Users\Łukasz\Desktop\C# _WPF_Projects\PROJEKT\File_explorer\File_explorer\obj\Debug\File_explorer.g.resources
+C:\Users\Łukasz\Desktop\C# _WPF_Projects\PROJEKT\File_explorer\File_explorer\obj\Debug\File_explorer.Properties.Resources.resources
+C:\Users\Łukasz\Desktop\C# _WPF_Projects\PROJEKT\File_explorer\File_explorer\obj\Debug\File_explorer.csproj.GenerateResource.cache
+C:\Users\Łukasz\Desktop\C# _WPF_Projects\PROJEKT\File_explorer\File_explorer\obj\Debug\File_explorer.csproj.CoreCompileInputs.cache
+C:\Users\Łukasz\Desktop\C# _WPF_Projects\PROJEKT\File_explorer\File_explorer\obj\Debug\File_explorer.exe
+C:\Users\Łukasz\Desktop\C# _WPF_Projects\PROJEKT\File_explorer\File_explorer\obj\Debug\File_explorer.pdb
