@@ -28,7 +28,7 @@ namespace File_explorer
 
             InitializeComponent();
             GettingListDrives();
-            GettingFiles();
+            //GettingFiles();
             // string text = ListView_1.SelectedItems[0].ToString();
 
         }
@@ -52,36 +52,43 @@ namespace File_explorer
         }
        
     //Wrzucanie plików do Listy
-    public void GettingFiles()
+    public void GetLeftFiles(string tmp)
         {
-            DirectoryInfo disk = new DirectoryInfo(@"D:\");
-            DirectoryInfo disk_2 = new DirectoryInfo(@"C:\");
+            ListView_1.Items.Clear();
+            DirectoryInfo disk = new DirectoryInfo(tmp);           
             FileInfo[] Files = disk.GetFiles();
             DirectoryInfo[] Directories = disk.GetDirectories();
-            FileInfo[] Files_2 = disk_2.GetFiles();
-            DirectoryInfo[] Directories_2 = disk_2.GetDirectories();
             //Files           
             foreach (FileInfo file in Files)
             {
                 ListView_1.Items.Add(file.Name);
-            }
-            foreach (FileInfo file in Files_2)
-            {
-                ListView_2.Items.Add(file.Name);
             }
             //Directonaries
             foreach (DirectoryInfo directory in Directories)
             {
                 ListView_1.Items.Add(directory.Name);
             }
-            foreach (DirectoryInfo directory in Directories_2)
+        }
+    public void GetRightFiles(string tmp)
+        {
+            ListView_2.Items.Clear();
+            DirectoryInfo disk = new DirectoryInfo(tmp);
+            FileInfo[] Files = disk.GetFiles();
+            DirectoryInfo[] Directories = disk.GetDirectories();
+            //Files           
+            foreach (FileInfo file in Files)
+            {
+                ListView_2.Items.Add(file.Name);
+            }
+            //Directonaries
+            foreach (DirectoryInfo directory in Directories)
             {
                 ListView_2.Items.Add(directory.Name);
             }
         }
 
         //POBIERANIE Z LISTY
-       
+
 
         private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
@@ -97,13 +104,29 @@ namespace File_explorer
         {
             if (ListDisk_1.SelectedIndex >= 0)
             {
-                string getdisk = ListDisk_1.SelectedItem.ToString();
-                txt_test.Text = getdisk;
+                string getdisk = ListDisk_1.SelectedItem.ToString();              
+                GetLeftFiles(getdisk);
             }
             else
             {
                 string getdisk = @"C:\";
-                txt_test.Text = getdisk;
+                GetLeftFiles(getdisk);
+            }
+
+            
+        }
+
+        private void ListDisk_2_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (ListDisk_2.SelectedIndex >= 0)
+            {
+                string getdisk = ListDisk_2.SelectedItem.ToString();
+                GetRightFiles(getdisk);
+            }
+            else
+            {
+                string getdisk = @"C:\";
+                GetRightFiles(getdisk);
             }
         }
 
@@ -121,6 +144,8 @@ namespace File_explorer
         {
 
         }
+
+       
 
 
 
