@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:File_explorer"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="671.6">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="376*"/>
+            <ColumnDefinition Width="21*"/>
+        </Grid.ColumnDefinitions>
         <ListView x:Name="ListView_1" HorizontalAlignment="Left" Height="300" Margin="32,55,0,0" VerticalAlignment="Top" Width="210" SelectionChanged="ListView_SelectionChanged">
             <ListView.View>
                 <GridView>
@@ -23,7 +27,12 @@
         </ListView>
         <ComboBox x:Name="ListDisk_1" HorizontalAlignment="Left" Margin="32,30,0,0" VerticalAlignment="Top" Width="210" Height="25" SelectionChanged="List_1_SelectionChanged"/>
         <ComboBox x:Name="ListDisk_2" HorizontalAlignment="Left" Margin="267,30,0,0" VerticalAlignment="Top" Width="210" Height="26"/>
-        <TextBox x:Name="test_text" HorizontalAlignment="Left" Height="23" Margin="572,83,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_test" HorizontalAlignment="Left" Height="23" Margin="500,355,0,0" TextWrapping="Wrap" Text="C:\" VerticalAlignment="Top" Width="120" TextChanged="Txt_test_TextChanged"/>
+        <Button x:Name="btn_copy" Content="Kopiuj" HorizontalAlignment="Left" Margin="510,73,0,0" VerticalAlignment="Top" Width="104" Click="Button_Click" Height="36"/>
+        <Button Content="Przenieś" HorizontalAlignment="Left" Margin="510,130,0,0" VerticalAlignment="Top" Width="104" Height="37"/>
+        <Button Content="Usuń" HorizontalAlignment="Left" Margin="510,195,0,0" VerticalAlignment="Top" Width="104" Height="35"/>
+        <Button Content="Nowy folder" HorizontalAlignment="Left" Margin="510,251,0,0" VerticalAlignment="Top" Width="104" Height="37"/>
+        <Button x:Name="btn_test" Content="Testy" HorizontalAlignment="Left" Height="33" Margin="507,322,0,0" VerticalAlignment="Top" Width="107" Click="Btn_test_Click"/>
 
     </Grid>
 </Window>
