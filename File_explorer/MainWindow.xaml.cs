@@ -130,22 +130,48 @@ namespace File_explorer
             }
         }
 
+         //WERSJA BUTTONOW NIE POPRAWNA Z BŁĘDAMI 
+        //BUTTON OTWÓRZ_LEWY
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
-        }
-
-        private void Btn_test_Click(object sender, RoutedEventArgs e)
-        {
+            string name_left = ListView_1.SelectedItems[0].ToString();
             
+            if (ListDisk_1.SelectedIndex >= 0)
+            {
+                string getdisk = ListDisk_1.SelectedItem.ToString() + name_left;
+                GetLeftFiles(getdisk);
+            }
+            else
+            {
+                string getdisk = @"C:\" + name_left;
+                GetLeftFiles(getdisk);
+            }           
         }
-
-        private void Txt_test_TextChanged(object sender, TextChangedEventArgs e)
+        //BUTTON OTWÓRZ_PRAWY
+        private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-
+            string name_right = ListView_2.SelectedItems[0].ToString();
+            test2.Text = name_right;
+        }
+        //BUTTON WSTECZ
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            if (ListDisk_1.SelectedIndex >= 0)
+            {
+                string getdisk = ListDisk_1.SelectedItem.ToString();
+                GetLeftFiles(getdisk);
+            }
+            else
+            {
+                string getdisk = @"C:\";
+                GetLeftFiles(getdisk);
+            }
         }
 
-       
+
+
+
+
 
 
 

@@ -5,33 +5,44 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:File_explorer"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="671.6">
-    <Grid>
+        Title="MainWindow" Height="450" Width="771.6">
+    <Grid Margin="0,0,3.8,0">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="376*"/>
-            <ColumnDefinition Width="21*"/>
+            <ColumnDefinition Width="54*"/>
+            <ColumnDefinition Width="667*"/>
+            <ColumnDefinition Width="58*"/>
+            <ColumnDefinition Width="38*"/>
+            <ColumnDefinition Width="5*"/>
         </Grid.ColumnDefinitions>
-        <ListView x:Name="ListView_1" HorizontalAlignment="Left" Height="300" Margin="32,55,0,0" VerticalAlignment="Top" Width="210" SelectionChanged="ListView_SelectionChanged">
+        <ListView x:Name="ListView_1" HorizontalAlignment="Left" Height="300" Margin="91.4,75,0,0" VerticalAlignment="Top" Width="210" SelectionChanged="ListView_SelectionChanged" Grid.Column="1">
             <ListView.View>
                 <GridView>
                     <GridViewColumn />
                 </GridView>
             </ListView.View>
         </ListView>
-        <ListView x:Name="ListView_2" HorizontalAlignment="Left" Height="300" Margin="267,55,0,0" VerticalAlignment="Top" Width="210" SelectionChanged="ListView_SelectionChanged_1">
+        <ListView x:Name="ListView_2" HorizontalAlignment="Left" Height="300" Margin="347.4,75,0,0" VerticalAlignment="Top" Width="210" SelectionChanged="ListView_SelectionChanged_1" Grid.Column="1">
             <ListView.View>
                 <GridView>
                     <GridViewColumn/>
                 </GridView>
             </ListView.View>
         </ListView>
-        <ComboBox x:Name="ListDisk_1" HorizontalAlignment="Left" Margin="32,30,0,0" VerticalAlignment="Top" Width="210" Height="25" SelectionChanged="List_1_SelectionChanged"/>
-        <ComboBox x:Name="ListDisk_2" HorizontalAlignment="Left" Margin="267,30,0,0" VerticalAlignment="Top" Width="210" Height="26" SelectionChanged="ListDisk_2_SelectionChanged"/>
-        <Button x:Name="btn_copy" Content="Kopiuj" HorizontalAlignment="Left" Margin="510,98,0,0" VerticalAlignment="Top" Width="104" Click="Button_Click" Height="36"/>
-        <Button Content="Przenieś" HorizontalAlignment="Left" Margin="510,162,0,0" VerticalAlignment="Top" Width="104" Height="37"/>
-        <Button Content="Usuń" HorizontalAlignment="Left" Margin="510,225,0,0" VerticalAlignment="Top" Width="104" Height="35"/>
-        <Button Content="Nowy folder" HorizontalAlignment="Left" Margin="510,287,0,0" VerticalAlignment="Top" Width="104" Height="37"/>
-        <Button Content="Otwórz" HorizontalAlignment="Left" Margin="510,33,0,0" VerticalAlignment="Top" Width="104" Height="36"/>
+        <ComboBox x:Name="ListDisk_1" HorizontalAlignment="Left" Margin="91.4,29,0,0" VerticalAlignment="Top" Width="210" Height="25" SelectionChanged="List_1_SelectionChanged" Grid.Column="1"/>
+        <ComboBox x:Name="ListDisk_2" HorizontalAlignment="Left" Margin="347.4,28,0,0" VerticalAlignment="Top" Width="210" Height="26" SelectionChanged="ListDisk_2_SelectionChanged" Grid.Column="1"/>
+        <TextBox x:Name="test" HorizontalAlignment="Left" Height="23" Margin="10,29,0,0" TextWrapping="Wrap" Text="test" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="test2" HorizontalAlignment="Left" Height="23" Margin="576.4,31,0,0" TextWrapping="Wrap" Text="test" VerticalAlignment="Top" Width="120" Grid.Column="1" Grid.ColumnSpan="3"/>
+        <Button Grid.ColumnSpan="2" Content="Otwórz" HorizontalAlignment="Left" Margin="10,59,0,0" VerticalAlignment="Top" Width="113" Height="41" Click="Button_Click"/>
+        <Button Grid.ColumnSpan="2" Content="Kopiuj" HorizontalAlignment="Left" Margin="10,117,0,0" VerticalAlignment="Top" Width="113" Height="41"/>
+        <Button Grid.ColumnSpan="2" Content="Przenieś" HorizontalAlignment="Left" Margin="10,178,0,0" VerticalAlignment="Top" Width="113" Height="41"/>
+        <Button Content="Usuń" HorizontalAlignment="Left" Margin="10,241,0,0" VerticalAlignment="Top" Width="113" Grid.ColumnSpan="2" Height="41"/>
+        <Button Content="Nowy folder" HorizontalAlignment="Left" Margin="10,303,0,0" VerticalAlignment="Top" Width="113" Grid.ColumnSpan="2" Height="41"/>
+        <Button Grid.ColumnSpan="3" Content="Otwórz" Grid.Column="1" HorizontalAlignment="Left" Margin="586.4,59,0,0" VerticalAlignment="Top" Width="110" Height="41" Click="Button_Click_1"/>
+        <Button Grid.ColumnSpan="3" Content="Kopiuj" Grid.Column="1" HorizontalAlignment="Left" Margin="586.4,117,0,0" VerticalAlignment="Top" Width="110" Height="41"/>
+        <Button Grid.ColumnSpan="3" Content="Przenieś" Grid.Column="1" HorizontalAlignment="Left" Margin="586.4,178,0,0" VerticalAlignment="Top" Width="110" Height="41"/>
+        <Button Grid.ColumnSpan="3" Content="Usuń" Grid.Column="1" HorizontalAlignment="Left" Margin="586.4,241,0,0" VerticalAlignment="Top" Width="110" Height="41"/>
+        <Button Grid.ColumnSpan="3" Content="Nowy folder" Grid.Column="1" HorizontalAlignment="Left" Margin="586.4,303,0,0" VerticalAlignment="Top" Width="110" Height="41"/>
+        <Button Content="Wstecz" Grid.Column="1" HorizontalAlignment="Left" Margin="91.4,54,0,0" VerticalAlignment="Top" Width="46" Height="21" Click="Button_Click_2"/>
 
     </Grid>
 </Window>
