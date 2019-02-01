@@ -41,14 +41,14 @@ namespace File_explorer
         public void GettingListDrives()
         {
             DriveInfo[] ListDrives = DriveInfo.GetDrives();
-            for (int i=0; i<ListDrives.Length; i++)
-            {
-                ListDisk_1.Items.Add(ListDrives[i]);
-                ListDisk_2.Items.Add(ListDrives[i]);
-            }
-            
-            
-           
+            for (int i = 0; i < ListDrives.Length; i++)
+                {
+                   if (ListDrives[i].DriveType.ToString() != "CDRom")
+                    {
+                        ListDisk_1.Items.Add(ListDrives[i]);
+                        ListDisk_2.Items.Add(ListDrives[i]);
+                    }                   
+                }
         }
        
     //Wrzucanie plików do Listy
@@ -102,6 +102,7 @@ namespace File_explorer
 
         private void List_1_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+
             if (ListDisk_1.SelectedIndex >= 0)
             {
                 string getdisk = ListDisk_1.SelectedItem.ToString();              
