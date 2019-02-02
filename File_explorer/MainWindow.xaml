@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:File_explorer"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="771.6">
-    <Grid Margin="0,0,3.8,0">
+        Title="File explorer" Height="450" Width="771.6" ResizeMode="CanMinimize" Cursor="Arrow">
+    <Grid Margin="0,0,3.8,0" Background="#FF7D8E8A">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="54*"/>
             <ColumnDefinition Width="667*"/>
@@ -30,8 +30,8 @@
         </ListView>
         <ComboBox x:Name="ListDisk_1" HorizontalAlignment="Left" Margin="91.4,29,0,0" VerticalAlignment="Top" Width="210" Height="25" SelectionChanged="List_1_SelectionChanged" Grid.Column="1"/>
         <ComboBox x:Name="ListDisk_2" HorizontalAlignment="Left" Margin="347.4,28,0,0" VerticalAlignment="Top" Width="210" Height="26" SelectionChanged="ListDisk_2_SelectionChanged" Grid.Column="1"/>
-        <TextBox x:Name="test" HorizontalAlignment="Left" Height="23" Margin="10,29,0,0" TextWrapping="Wrap" Text="test" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
-        <TextBox x:Name="test2" HorizontalAlignment="Left" Height="23" Margin="576.4,31,0,0" TextWrapping="Wrap" Text="test" VerticalAlignment="Top" Width="120" Grid.Column="1" Grid.ColumnSpan="3"/>
+        <TextBox x:Name="test" HorizontalAlignment="Left" Height="23" Margin="10,29,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="test2" HorizontalAlignment="Left" Height="23" Margin="576.4,31,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="1" Grid.ColumnSpan="3"/>
         <Button Grid.ColumnSpan="2" Content="Otwórz" HorizontalAlignment="Left" Margin="10,59,0,0" VerticalAlignment="Top" Width="113" Height="41" Click="Button_Click"/>
         <Button Grid.ColumnSpan="2" Content="Kopiuj" HorizontalAlignment="Left" Margin="10,117,0,0" VerticalAlignment="Top" Width="113" Height="41"/>
         <Button Grid.ColumnSpan="2" Content="Przenieś" HorizontalAlignment="Left" Margin="10,178,0,0" VerticalAlignment="Top" Width="113" Height="41"/>
@@ -43,6 +43,7 @@
         <Button Grid.ColumnSpan="3" Content="Usuń" Grid.Column="1" HorizontalAlignment="Left" Margin="586.4,241,0,0" VerticalAlignment="Top" Width="110" Height="41"/>
         <Button Grid.ColumnSpan="3" Content="Nowy folder" Grid.Column="1" HorizontalAlignment="Left" Margin="586.4,303,0,0" VerticalAlignment="Top" Width="110" Height="41"/>
         <Button Content="Wstecz" Grid.Column="1" HorizontalAlignment="Left" Margin="91.4,54,0,0" VerticalAlignment="Top" Width="46" Height="21" Click="Button_Click_2"/>
+        <Button Content="Wstecz" Grid.Column="1" HorizontalAlignment="Left" Margin="347.4,54,0,0" VerticalAlignment="Top" Width="46" Height="21" Click="Button_Click_3"/>
 
     </Grid>
 </Window>
