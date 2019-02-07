@@ -1,0 +1,60 @@
+C:\Users\Łukasz\Desktop\C# _WPF_Projects\PROJEKT\File_explorer\File_explorer\obj\Debug\MainWindow.g.cs
+C:\Users\Łukasz\Desktop\C# _WPF_Projects\PROJEKT\File_explorer\File_explorer\obj\Debug\App.g.cs
+C:\Users\Łukasz\Desktop\C# _WPF_Projects\PROJEKT\File_explorer\File_explorer\obj\Debug\File_explorer_MarkupCompile.cache
+C:\Users\Łukasz\Desktop\C# _WPF_Projects\PROJEKT\File_explorer\File_explorer\obj\Debug\File_explorer_MarkupCompile.lref
+C:\Users\Łukasz\Desktop\C# _WPF_Projects\PROJEKT\File_explorer\File_explorer\bin\Debug\File_explorer.exe.config
+C:\Users\Łukasz\Desktop\C# _WPF_Projects\PROJEKT\File_explorer\File_explorer\bin\Debug\File_explorer.exe
+C:\Users\Łukasz\Desktop\C# _WPF_Projects\PROJEKT\File_explorer\File_explorer\bin\Debug\File_explorer.pdb
+C:\Users\Łukasz\Desktop\C# _WPF_Projects\PROJEKT\File_explorer\File_explorer\obj\Debug\File_explorer.csprojAssemblyReference.cache
+C:\Users\Łukasz\Desktop\C# _WPF_Projects\PROJEKT\File_explorer\File_explorer\obj\Debug\MainWindow.baml
+C:\Users\Łukasz\Desktop\C# _WPF_Projects\PROJEKT\File_explorer\File_explorer\obj\Debug\File_explorer.g.resources
+C:\Users\Łukasz\Desktop\C# _WPF_Projects\PROJEKT\File_explorer\File_explorer\obj\Debug\File_explorer.Properties.Resources.resources
+C:\Users\Łukasz\Desktop\C# _WPF_Projects\PROJEKT\File_explorer\File_explorer\obj\Debug\File_explorer.csproj.GenerateResource.cache
+C:\Users\Łukasz\Desktop\C# _WPF_Projects\PROJEKT\File_explorer\File_explorer\obj\Debug\File_explorer.csproj.CoreCompileInputs.cache
+C:\Users\Łukasz\Desktop\C# _WPF_Projects\PROJEKT\File_explorer\File_explorer\obj\Debug\File_explorer.exe
+C:\Users\Łukasz\Desktop\C# _WPF_Projects\PROJEKT\File_explorer\File_explorer\obj\Debug\File_explorer.pdb
+C:\File_explorer\File_explorer\obj\Debug\File_explorer.csprojAssemblyReference.cache
+C:\File_explorer\File_explorer\obj\Debug\MainWindow.g.cs
+C:\File_explorer\File_explorer\obj\Debug\App.g.cs
+C:\File_explorer\File_explorer\obj\Debug\File_explorer_MarkupCompile.cache
+C:\File_explorer\File_explorer\obj\Debug\File_explorer_MarkupCompile.lref
+C:\File_explorer\File_explorer\obj\Debug\File_explorer.exe
+C:\File_explorer\File_explorer\obj\Debug\File_explorer.pdb
+C:\File_explorer\File_explorer\bin\Debug\File_explorer.exe.config
+C:\File_explorer\File_explorer\bin\Debug\File_explorer.exe
+C:\File_explorer\File_explorer\bin\Debug\File_explorer.pdb
+C:\File_explorer\File_explorer\obj\Debug\MainWindow.baml
+C:\File_explorer\File_explorer\obj\Debug\File_explorer.g.resources
+C:\File_explorer\File_explorer\obj\Debug\File_explorer.Properties.Resources.resources
+C:\File_explorer\File_explorer\obj\Debug\File_explorer.csproj.GenerateResource.cache
+C:\File_explorer\File_explorer\obj\Debug\File_explorer.csproj.CoreCompileInputs.cache
+C:\Fileexplorer\File_explorer\bin\Debug\File_explorer.exe.config
+C:\Fileexplorer\File_explorer\bin\Debug\File_explorer.exe
+C:\Fileexplorer\File_explorer\bin\Debug\File_explorer.pdb
+C:\Fileexplorer\File_explorer\obj\Debug\File_explorer.csprojAssemblyReference.cache
+C:\Fileexplorer\File_explorer\obj\Debug\MainWindow.g.cs
+C:\Fileexplorer\File_explorer\obj\Debug\App.g.cs
+C:\Fileexplorer\File_explorer\obj\Debug\File_explorer_MarkupCompile.cache
+C:\Fileexplorer\File_explorer\obj\Debug\File_explorer_MarkupCompile.lref
+C:\Fileexplorer\File_explorer\obj\Debug\MainWindow.baml
+C:\Fileexplorer\File_explorer\obj\Debug\File_explorer.g.resources
+C:\Fileexplorer\File_explorer\obj\Debug\File_explorer.Properties.Resources.resources
+C:\Fileexplorer\File_explorer\obj\Debug\File_explorer.csproj.GenerateResource.cache
+C:\Fileexplorer\File_explorer\obj\Debug\File_explorer.csproj.CoreCompileInputs.cache
+C:\Fileexplorer\File_explorer\obj\Debug\File_explorer.exe
+C:\Fileexplorer\File_explorer\obj\Debug\File_explorer.pdb
+C:\Users\User\Desktop\File_Commander-master\File_explorer\obj\Debug\File_explorer.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\File_Commander-master\File_explorer\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\File_Commander-master\File_explorer\obj\Debug\App.g.cs
+C:\Users\User\Desktop\File_Commander-master\File_explorer\obj\Debug\File_explorer_MarkupCompile.cache
+C:\Users\User\Desktop\File_Commander-master\File_explorer\obj\Debug\File_explorer_MarkupCompile.lref
+C:\Users\User\Desktop\File_Commander-master\File_explorer\obj\Debug\File_explorer.exe
+C:\Users\User\Desktop\File_Commander-master\File_explorer\obj\Debug\File_explorer.pdb
+C:\Users\User\Desktop\File_Commander-master\File_explorer\bin\Debug\File_explorer.exe.config
+C:\Users\User\Desktop\File_Commander-master\File_explorer\bin\Debug\File_explorer.exe
+C:\Users\User\Desktop\File_Commander-master\File_explorer\bin\Debug\File_explorer.pdb
+C:\Users\User\Desktop\File_Commander-master\File_explorer\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\File_Commander-master\File_explorer\obj\Debug\File_explorer.g.resources
+C:\Users\User\Desktop\File_Commander-master\File_explorer\obj\Debug\File_explorer.Properties.Resources.resources
+C:\Users\User\Desktop\File_Commander-master\File_explorer\obj\Debug\File_explorer.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\File_Commander-master\File_explorer\obj\Debug\File_explorer.csproj.CoreCompileInputs.cache
