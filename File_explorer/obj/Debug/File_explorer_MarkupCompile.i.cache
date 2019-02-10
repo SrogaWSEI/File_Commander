@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Łukasz\Desktop\C# _WPF_Projects\PROJEKT\File_explorer\File_explorer\obj\Debug\
+C:\Fileexplorer\File_explorer\obj\Debug\
 File_explorer
 none
 false
 DEBUG;TRACE
-C:\Users\Łukasz\Desktop\C# _WPF_Projects\PROJEKT\File_explorer\File_explorer\App.xaml
+C:\Fileexplorer\File_explorer\App.xaml
 11151548125
 
-91632591752
+101045411488
 131569487696
 MainWindow.xaml;
 
-True
+False
 
