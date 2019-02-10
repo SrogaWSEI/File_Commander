@@ -43,7 +43,7 @@ namespace File_explorer
             ListView_1.Items.Clear();
             DirectoryInfo disk = new DirectoryInfo(tmp);
             FileInfo[] Files = disk.GetFiles();
-            DirectoryInfo[] Directories = disk.GetDirectories();
+            DirectoryInfo[] Directories = disk.GetDirectories();           
             //Files     
             foreach (FileInfo file in Files)
             {
@@ -124,6 +124,7 @@ namespace File_explorer
                 string name_left = ListView_1.SelectedItems[0].ToString();
                 string files = ".";
                 bool isfile = name_left.Contains(files);
+
                 if (!isfile)
                 {
                     try
@@ -215,7 +216,7 @@ namespace File_explorer
         //left copy button
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
-            if (ListDisk_1.SelectedIndex >= 0)
+            if (ListDisk_1.SelectedIndex >= 0 && ListDisk_2.SelectedIndex >= 0)
             {
                 string fileName = ListView_1.SelectedItems[0].ToString();
                 string sourcePath = ListDisk_1.SelectedItem.ToString();
@@ -251,7 +252,7 @@ namespace File_explorer
         //right copy button
         private void Button_Click_7(object sender, RoutedEventArgs e)
         {
-            if (ListDisk_2.SelectedIndex >= 0)
+            if (ListDisk_1.SelectedIndex >= 0 && ListDisk_2.SelectedIndex >= 0)
             {
                 string fileName = ListView_2.SelectedItems[0].ToString();
                 string sourcePath = ListDisk_2.SelectedItem.ToString();
@@ -289,7 +290,7 @@ namespace File_explorer
         //left move button
         private void Button_Click_8(object sender, RoutedEventArgs e)
         {
-            if (ListDisk_1.SelectedIndex >= 0)
+            if (ListDisk_1.SelectedIndex >= 0 && ListDisk_2.SelectedIndex >= 0)
             {
                 string fileName = ListView_1.SelectedItems[0].ToString();
                 string sourcePath = ListDisk_1.SelectedItem.ToString();
@@ -326,7 +327,7 @@ namespace File_explorer
         //right move button
         private void Button_Click_9(object sender, RoutedEventArgs e)
         {
-            if (ListDisk_2.SelectedIndex >= 0)
+            if (ListDisk_1.SelectedIndex >= 0 && ListDisk_2.SelectedIndex >= 0)
             {
                 string fileName = ListView_2.SelectedItems[0].ToString();
                 string sourcePath = ListDisk_2.SelectedItem.ToString();
