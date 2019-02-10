@@ -1,5 +1,4 @@
 # File_Commander
-Projekt C# Studia niestacjonarne WSEI
 
 # Wyższa Szkoła Ekonomii i Informatyki w Krakowie   Kierunek studiów: Informatyka i Ekonometria NS Rok studiów: II Grupa:5
                                                                              
